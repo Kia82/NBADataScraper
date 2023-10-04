@@ -81,5 +81,4 @@ temp_df2 = pd.DataFrame({
 }, index=index)
 
 df = pd.concat([temp_df2, temp_df1], axis=1)
-
 df.to_excel('playerdata_dynamic.xlsx')
